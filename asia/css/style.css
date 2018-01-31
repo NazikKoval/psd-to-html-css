@@ -1,0 +1,219 @@
+body {
+background-image: url(../images/background.jpg);
+    background-position: 0% -38px;
+
+}
+.head {
+    height: 175px;
+    width: 1000px;
+    background: white;
+    margin-top: -8px;
+}
+.all {
+    width: 1000px;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+   box-shadow: -1px -9px 43px 3px rgba(0,0,0,0.75);
+}
+.src {
+    margin-left: 28px;
+}
+.headtext {
+    color:black;
+    margin-left: 70px;
+    margin-top: -70px;
+    font-size: 10pt;
+    font-family: Tahoma;
+    color: #128aa7;
+}
+.ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    float: right;
+    margin-top: -35px;
+    margin-right: 36px;
+    height: 50px;
+}
+.ul li {
+    padding-left: 18px;
+    
+}
+.a1 {
+ text-align: center;
+  
+}
+.ul li p a {
+    font-family: Tahoma;
+    color: #128aa7;
+    font-size: 8pt;
+    text-align: center;
+}
+.ul li p {
+    text-align: center;
+    line-height: 0px;
+    font-size: 10pt;
+    font-family: Tahoma;
+    color: #128aa7;
+}
+.con {
+     display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    float: right;
+    margin-top: -120px;
+      font-size: 10pt;
+    font-family: Tahoma;
+    color: #128aa7;
+    margin-right: 30px;
+}
+.head::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.image {
+height: 235px;
+    background-image: url(../images/palm.jpg);
+    border-bottom: 2px double #138aa7;
+    border-top: 1px solid #128aa7;
+}
+
+
+
+
+
+
+.menu {
+    background: linear-gradient(to bottom, #373737 0%, #303030 100%);
+    font-family: Tahoma;
+    font-size: 11pt;
+    
+    
+}
+.menu1 li a {
+    text-decoration: none;
+    color: white;
+}
+.menu1 {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-top: 0px;
+    padding-left: 0px;
+box-shadow:         0px 5px 8px 0px rgba(50, 50, 50, 0.75);
+}
+.liska , .liska1 {
+    margin-left: 65px;
+    line-height: 30px;
+    position: relative;
+}
+.liska1 a {
+    display: block;
+}
+.submenu {
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #303030;
+    margin-top: 0px;
+    color: white;
+        width: 150px;
+    border-top: 1px solid black;
+    font-family: Tahoma;
+    font-size: 11pt;
+    box-shadow: -1px 8px 19px -1px rgba(0,0,0,0.75);
+}
+.liska1:hover .submenu {
+    display: block;
+}
+.submenu-item {
+    margin: 0;
+    padding: 0px 10px;
+
+}
+
+.liska2 a {
+    display: block;
+}
+.liska2:hover .submenu {
+    display: block;
+}
+.liska2 {
+    margin-left: 65px;
+    line-height: 30px;
+    position: relative;
+}
+.liska3 a {
+    display: block;
+}
+.liska3:hover .submenu {
+    display: block;
+}
+.liska3 {
+    margin-left: 65px;
+    line-height: 30px;
+    position: relative;
+}
+
+
+
+
+
+
+
+.center{
+    display: flex;
+    flex-direction: row;
+    margin-top: -15px;
+}
+.left{
+    width: 210px;
+    height: 545px;
+    background: #edeef0;
+    color: #424c43;
+    border-right: 1px solid #c7cacf;
+}
+.left ul li {
+list-style: none;
+    width: 180px;
+    margin-left: -25px;
+}
+.right ul li {
+list-style: none;
+    width: 180px;
+    margin-left: -25px;
+}
+.centerr {
+    width: 580px;
+    height: 545px;
+    background: white;;
+}
+.right {
+width: 210px;
+    height: 545px;
+     background: #edeef0;
+    color: #424c43;
+    border-left: 1px solid #c7cacf;
+}
+footer p{
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+    font-size: 10pt;
+}
+.info {
+    font-size: 16pt;
+ font-family: Tahoma;
+    font-weight: 590;
+    margin-top: -10px;
+    text-align: center;
+}
+.af {
+    font-family: Tahoma;
+    font-size: 11pt;
+    padding-top: 6px;
+}

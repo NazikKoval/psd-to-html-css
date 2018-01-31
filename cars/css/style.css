@@ -1,0 +1,483 @@
+.page {
+    width: 901px;
+    margin: auto;
+}
+
+.number {
+    font-size: 14pt;
+    font-family: Arial;
+    color: #5e696d;
+    margin: -26px 26px;
+}
+
+.blank {
+    background: linear-gradient(to top, #0d365a, #1f6685);
+    width: 495px;
+    height: 25px;
+    margin-left: 308px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 1);
+    border-top: 1px solid #a6c3cf;
+    margin-top: -27px;
+}
+
+.tip {
+    margin: 3px 0 0 6px;
+}
+
+.form {
+    margin: -25px 0 0 25px;
+}
+
+.input1,
+.input2 {
+    height: 12px;
+    width: 110px;
+    ;
+}
+
+.input2 {
+    margin-left: 3px;
+}
+
+.got {
+    margin: -18px 0 0 267px;
+    color: white;
+    font-size: 8pt;
+    font-family: Lucida sans unicode;
+}
+
+.got a {
+    text-decoration: none;
+    color: white;
+}
+
+#got1 {
+    margin-left: 18px;
+    text-decoration: underline;
+    font-family: Lucida sans unicode;
+    font-size: 9pt;
+    color: #bfbfbf;
+}
+
+.mini {
+    height: 20px;
+    width: 75px;
+    border-radius: 30px;
+    border: 1px solid #c1c8cb;
+    margin: -20px 0 0 511px;
+    box-shadow: 0px 2px 15px 0px rgba(218, 222, 224, 1);
+}
+
+.image {
+    padding-left: 3px;
+    line-height: 20px;
+    margin-left: 2px;
+}
+
+.image1 {
+    margin-left: 8px;
+}
+
+.zazor {
+    margin-top: 11px;
+    margin-left: -5px;
+}
+
+.menu {
+    height: 32px;
+    width: 910px;
+    margin: 2px 0 0 -7px;
+    background: linear-gradient(to top, #010101 0%, #24282b 85%, #616e80 100%);
+    border-radius: 5px;
+    border: 1px solid #2c345a;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.75);
+}
+
+.menuul {
+    padding-left: 130px;
+}
+
+.menuli {
+    display: inline-block;
+    width: 105px;
+    height: 25px;
+    margin-top: -12px;
+    text-align: center;
+    border-radius: 40px;
+    list-style: none;
+    float: left;
+    line-height: 25px;
+    font-family: Lucida Sans Unicode;
+    font-size: 10pt;
+    color: #b1bcc0;
+}
+
+.menuli1  {
+    display: inline-block;
+    margin-top: -12px;
+    text-align: center;
+    list-style: none;
+    float: left;
+    line-height: 25px;
+    font-family: Lucida Sans Unicode;
+    font-size: 8pt;
+    color: #b1bcc0;
+
+    margin-left: 5px;
+}
+.menuli11 {
+        display: inline-block;
+    margin-top: -12px;
+    text-align: center;
+    list-style: none;
+    float: left;
+    line-height: 25px;
+    font-family: Lucida Sans Unicode;
+    font-size: 8pt;
+    color: #b1bcc0;
+
+    margin-left: 70px;
+}
+
+.menuli:hover {
+    background: linear-gradient(to top, #0d3458, #1f6787);
+    color: white;
+}
+
+
+.im {
+    margin-top: -15px;
+}
+
+.box {
+    height: 133px;
+    width: 413px;
+    border-radius: 20px;
+    border: 1px solid #b6b6b7;
+    margin-top: 12px;
+    margin-left: -2px;
+    box-shadow: 2px 2px 5px 0px rgba(149, 149, 150, 1);
+}
+
+.box2 {
+    width: 192px;
+    height: 133px;
+    border-radius: 20px;
+    border: 1px solid #b6b6b7;
+    margin-top: -135px;
+    margin-left: 427px;
+    box-shadow: 2px 2px 5px 0px rgba(149, 149, 150, 1);
+}
+
+.box3 {
+    width: 265px;
+    height: 133px;
+    border-radius: 20px;
+    border: 1px solid #b6b6b7;
+    margin-top: -135px;
+    margin-left: 630px;
+    box-shadow: 2px 2px 5px 0px rgba(149, 149, 150, 1);
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 188px;
+    height: 100px;
+}
+
+.cen {
+    width: 525px;
+    background: linear-gradient(to top, #94a7b0, #e4e7e8);
+    height: 628px;
+    margin-left: -3px;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+
+.cent {
+    display: flex;
+    flex-direction: row;
+}
+
+.cent1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.cent2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+}
+
+.right {
+    width: 188px;
+    height: 100px;
+}
+
+.photo1 {
+    width: 136px;
+    height: 126px;
+    border: 1px solid #bec6c9;
+    border-radius: 8px;
+    margin-top: 44px;
+    margin-left: 23px;
+    background: url(../images/coleso.jpg)
+}
+
+.photo2 {
+    width: 136px;
+    height: 126px;
+    border: 1px solid #bec6c9;
+    margin-top: 44px;
+    margin-left: 29px;
+    border-radius: 8px;
+    background: url(../images/coleso1.jpg)
+}
+
+.photo3 {
+    width: 136px;
+    height: 126px;
+    border: 1px solid #bec6c9;
+    margin-top: 44px;
+    margin-left: 30px;
+    border-radius: 8px;
+    background: url(../images/coleso3.jpg)
+}
+
+.button {
+    width: 180px;
+    height: 25px;
+    border: 1px solid #8b979c;
+    border-radius: 30px;
+    margin-top: 19px;
+    margin-left: -7px;
+    box-shadow: 1px 1px 5px 0px rgba(149, 149, 150, 1);
+}
+
+.catalog {
+    font-size: 10pt;
+    font-family: Lucida Sans Unicode;
+    color: #114165;
+    margin-top: -26px;
+    margin-left: 24px;
+}
+
+.button1 {
+    width: 148px;
+    height: 26px;
+    border: 1px solid #8b979c;
+    border-radius: 12px;
+    margin-top: 13px;
+    margin-left: -5px;
+}
+
+.catalog1 {
+    font-size: 11pt;
+    font-family: Lucida Sans Unicode;
+    color: #114165;
+    margin-top: -26px;
+    margin-left: 28px;
+}
+
+.button1 img {
+    margin-top: 1px;
+    margin-left: 3px;
+}
+
+.leftul {
+    margin-top: 2px;
+}
+
+.leftul li {
+    list-style: circle;
+    color: #465961;
+    font-family: Lucida Sans Unicode;
+    font-size: 10pt;
+    padding-bottom: 5px;
+}
+
+.leftul li:hover {
+    font-style: oblique;
+    text-decoration: underline;
+    color: #0c3256;
+    font-weight: 600;
+}
+
+.leftul li span a {
+    color: #465961;
+    text-decoration: none;
+}
+
+.button2 {
+    width: 148px;
+    height: 26px;
+    border: 1px solid #8b979c;
+    border-radius: 12px;
+    margin-top: -22px;
+    margin-left: -5px;
+}
+
+.button2 img {
+    margin-top: 1px;
+    margin-left: 2px;
+}
+
+.button3 {
+    width: 148px;
+    height: 26px;
+    border: 1px solid #8b979c;
+    border-radius: 12px;
+    margin-top: -22px;
+    margin-left: -5px;
+}
+
+.button3 img {
+    margin-top: 1px;
+    margin-left: 2px;
+}
+
+.first {
+    font-family: Lucida Sans Unicode;
+    font-size: 12pt;
+    color: #206988;
+    margin-top: -35px;
+    text-align: center;
+}
+
+.second {
+    font-family: Lucida Sans Unicode;
+    font-size: 10pt;
+    color: #1f2528;
+    margin-top: -25px;
+    text-align: center;
+}
+
+.thirt {
+    font-family: Arial;
+    font-size: 13pt;
+    text-align: center;
+    margin-top: 127px;
+    font-style: oblique;
+    color: #114165;
+    font-weight: 600;
+}
+
+.rightbut {
+    width: 180px;
+    height: 25px;
+    border: 1px solid #8b979c;
+    border-radius: 30px;
+    margin-top: 17px;
+    margin-left: 11px;
+    box-shadow: 1px 1px 5px 0px rgba(149, 149, 150, 1);
+}
+
+.button11 {
+    width: 133px;
+    height: 26px;
+    border: 1px solid #8b979c;
+    border-radius: 12px;
+    margin-top: 14px;
+    margin-left: 26px;
+}
+
+.button11 img {
+    margin-top: 1px;
+    margin-left: 3px;
+}
+
+.checkbox {
+    box-shadow: 1px 1px 5px 0px rgba(149, 149, 150, 1);
+}
+
+.chek {
+    margin-left: 30px;
+    margin-top: 5px;
+    line-height: 25px;
+}
+
+.button111 {
+    width: 135px;
+    height: 26px;
+    border: 1px solid #8b979c;
+    border-radius: 12px;
+    margin-top: -7px;
+    margin-left: 24px;
+}
+
+.button111 img {
+    margin-top: 1px;
+    margin-left: 3px;
+}
+
+.chek {
+    font-size: 10pt;
+    font-family: Lucida Sans Unicode;
+    color: #465961;
+}
+
+.confirm {
+    width: 80px;
+    height: 25px;
+    border-radius: 20px;
+    color: white;
+    background: black;
+    margin-left: 35px;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 23px;
+    font-family: Arial;
+    font-size: 10pt;
+    background: linear-gradient(to top, #0d3458, #1f6585);
+    box-shadow: 1px 1px 2px 0px rgba(99, 91, 90, 1);
+}
+
+.confirm a {
+    color: white;
+    text-decoration: none;
+}
+
+.logos {
+    width: 901px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: -3px;
+}
+
+.footer {
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: 910px;
+    background-color: #213a4d;
+}
+
+.foottext {
+    display: block;
+    text-align: center;
+    color: #bec6c9;
+    font-size: 10pt;
+    font-family: Arial;
+    padding-top: 8px;
+}
+
+.foottext a {
+    color: #bec6c9;
+    font-size: 10pt;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.global {
+    color: #7f4740;
+    font-size: 8pt;
+    font-family: Arial;
+    text-align: center;
+}

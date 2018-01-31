@@ -1,0 +1,159 @@
+body {
+    background: black;
+    background-image: url(../images/background.jpg);
+     background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Tahoma;
+} 
+.full {
+    width: 820px;
+    margin: 0 auto;
+}
+.text {
+    color:white;
+    margin-top: -30px;
+    margin-left: 70px;
+    font-size: 10pt;
+}
+
+
+
+.txt {
+    float:right;
+    margin-top: -70px;
+}
+
+.text2 {
+    color:white;
+    margin-left: 700px;
+    font-size: 10pt;
+}
+.text3{
+    color:white;
+    margin-left: 700px;
+ margin-top: -10px;
+    font-size: 8pt;
+}
+.text4{
+    color:white;
+    margin-left: 700px;
+ margin-top: -10px;
+    font-size: 8pt;
+}
+
+
+
+
+
+
+.header::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.photo{
+    display: flex;
+    flex-direction: row;
+    color:white;
+    font-size: 12pt;
+}
+.photo2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 67px;
+    color:white;
+    font-size: 12pt;
+}
+.india {
+    border: 3px ridge grey;
+    width: 261px;
+    height: 178px;
+    text-align: center;
+}
+.nepal {
+    border: 3px ridge grey;
+    width: 261px;
+    height: 178px;
+    margin-left: 12px;
+    text-align: center;
+}
+.tibet {
+    border: 3px ridge grey;
+    width: 261px;
+    height: 178px;
+    margin-left: 12px;
+    text-align: center;
+}
+.bhutan {
+    border: 3px ridge grey;
+    width: 261px;
+    height: 178px;
+    text-align: center;
+}
+.srilanka {
+    border: 3px ridge grey;
+    width: 261px;
+    height: 178px;
+    margin-left: 12px;
+    text-align: center;
+}
+.maldives {
+    border: 3px ridge grey;
+    width: 261px;
+    height: 178px;
+    margin-left: 12px;
+    text-align: center;
+}
+.textf {
+    margin-top: 200px;
+    color: white;
+    text-align: center;
+    font-size: 10pt;
+}
+
+
+@media screen and (max-width: 900px) {
+    .photo {
+        flex-wrap: wrap;
+    }
+      .photo2 {
+        flex-wrap: wrap;
+          margin-top: 20px;
+    }
+      .india {
+        margin-left: 12px;
+          margin-bottom: 20px;
+    }
+       .bhutan {
+        margin-left: 12px;
+           margin-bottom: 20px;
+    }
+    .textf {
+    text-align: left;
+}
+
+
+}
+@media screen and (max-width: 600px) {
+    .photo {
+        flex-direction: column;
+    }
+     .photo2 {
+        flex-direction: column;
+         margin-top: 20px;
+    }
+    .india {
+        margin-left: 12px;
+    }
+    .nepal{
+        margin-bottom: 20px;
+    }
+    .bhutan {
+        margin-left: 12px;
+    }
+    .srilanka {
+        margin-bottom: 20px;
+    }
+
+}

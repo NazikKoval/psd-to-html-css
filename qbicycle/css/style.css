@@ -1,0 +1,125 @@
+.body {
+    width: 1060px;
+    margin: auto;
+    font-family: "Open Sans";
+    color: #2c2c2c;
+     border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+}
+.logo {
+    margin: 65px 0 25px 48px;
+}
+.nav1 {
+    background: linear-gradient(to bottom, #5e5e5e 0%, #454444 100%);
+    width: 965px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+.header li {
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    width: 100px;
+    color: white;
+    font-size: 11pt;
+}
+.l1 {
+padding-right: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+.tovary {
+     background: linear-gradient(to bottom, #494949 0%, #2f2f2f 100%);
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
+}
+.header a:hover {
+      background: linear-gradient(to bottom, #494949 0%, #2f2f2f 100%);
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
+}
+
+
+
+
+
+.nav2 {
+    height: 240px;
+    width: 237px;
+    padding-left: 8px;
+    margin-left: 0px;
+    font-size: 10pt;
+}
+.telefony {
+    padding-left: 36px;
+}
+.note {
+    padding-left: 23px;
+text-decoration: none;
+}
+.nav2 ul li {
+    border: 1px solid #c8c8c8;
+    font-family: sans-serif;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    color: #2c2c2c;
+    transition: 0.2s;
+}
+.nav2 ul a:hover li {
+     padding-left: 36px;
+}
+
+
+
+
+
+
+
+.bike {
+    float:right;
+    width: 675px;
+    height: 400px;
+    margin-right: 48px;
+    border: 1px solid #c8c8c8;
+    margin-top: -240px
+}
+.text {
+width: 630px;
+height: 135px;
+    margin-top: 200px;
+    margin-left: 370px;
+    
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+.footer li {
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    width: 100px;
+    color: #2c2c2c;
+    font-size: 11pt;
+    padding-left: 20px;
+}
+.nav3 {
+    background-color: #e1e1e1;
+    width: 965px;
+    height: 40px;
+    margin: 0 auto;
+   margin-top: 25%;
+}
+.all {
+    margin-left: 200px;
+}
